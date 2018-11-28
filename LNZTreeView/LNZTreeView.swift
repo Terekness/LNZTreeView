@@ -69,6 +69,10 @@ public class LNZTreeView: UIView {
         commonInit()
     }
     
+    public var visibleCells: [UITableViewCell] {
+        return self.tableView.visibleCells
+    }
+    
     public convenience init() {
         self.init(frame: .zero)
     }

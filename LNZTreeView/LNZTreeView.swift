@@ -75,6 +75,7 @@ public class LNZTreeView: UIView {
     
     public var tableView: UITableView {
         return self.tableView
+    }
     
     public convenience init() {
         self.init(frame: .zero)

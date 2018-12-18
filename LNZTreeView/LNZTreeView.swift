@@ -73,7 +73,7 @@ public class LNZTreeView: UIView {
         return self.tableView.visibleCells
     }
     
-    public var tableView: UITableView {
+    public var table: UITableView {
         return self.tableView
     }
     
